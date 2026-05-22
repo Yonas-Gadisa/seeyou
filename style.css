@@ -17,7 +17,25 @@ nav ul{
     justify-content: center;
 }
 
-.videos{
+.videos1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #111;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.videos2{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
     gap: 20px;
